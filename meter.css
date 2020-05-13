@@ -1,0 +1,71 @@
+.meter {
+  width: 100%;
+  max-width: 250px;
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  color: #004033;
+}
+
+.meter--body {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  background: #b4c0be;
+  position: relative;
+ border-radius: 100%;
+
+  overflow: hidden;
+  
+}
+
+.meter--fill {
+  position: absolute;
+  top: 85%;
+  left: -150px;
+  width: 200%;
+  height: 100%;
+  background: #009578;
+  transform-origin: center top;
+  transform: rotate(0.25turn);
+  transition: transform 0.2s ease-out;
+}
+
+.meter--cover {
+  width: 70%;
+  height: 70%;
+  background:#ffffff;
+  border-radius: 50%;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  /*Text */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 25%;
+  box-sizing: border-box;
+
+}
+
+.meter--cover2 {
+  width: 74%;
+  height: 100%;
+  background: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 13%;
+
+}
+
+.meter--cover3 {
+  width: 77%;
+  height: 15%;
+  background:#ffffff;
+  position: absolute;
+  
+  top: 85%;
+  left: 20px;
+}
